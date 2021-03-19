@@ -1,0 +1,129 @@
+
+*{
+    font-weight: bold;
+}
+
+h2,h3 {
+    text-align: center;
+}
+
+section{
+    padding: 20px 0;
+}
+
+/*NAV-BAR*/
+.my-navbar .icon-bar{
+    background-color: white;
+}
+
+.my-navbar .navbar-brand{
+    color: white;
+}
+
+.my-navbar{
+    margin-bottom: 0;
+}
+
+.my-navbar .nav a{
+    color: white;
+}
+
+.hero,.portfolio,footer{
+    text-align: center;
+}
+
+.my-navbar .nav>li>a:hover{
+    background-color:rgb(90, 107, 143);
+    border-bottom: 5px solid white;
+}
+
+/*HERO*/
+.hero img{
+    width: 30%;
+    margin: 20px 0;
+}
+
+.hero{
+    color: white;
+}
+
+.hero h3{
+    padding-bottom: 10px;
+}
+/*PORTFOLIO*/
+.portfolio img{
+    border-radius: 3%;
+    width: 100%;
+}
+
+.box-img{
+    margin: 15px 0;
+}
+
+/*ABOUT*/
+.about{
+    color: white;
+}
+
+.button-about{
+    text-align: center;
+    padding-bottom: 18px;
+    padding-top: 10px;
+}
+
+/*CONTACT*/
+.contact input{
+    border: none;
+    border-bottom: 1px solid grey;
+    border-radius: 0;
+    margin-bottom: 10px;
+}
+
+.contact p{
+    text-align: center;
+}
+
+.contact label input{
+    padding-bottom: 10px;
+}
+
+.contact button{
+    margin-top:20px;
+}
+
+/*FOOTER*/
+footer>*{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*BUTTON STYLE*/
+.btn-about{
+    border: 1px solid white;
+    padding:10px;
+    border-radius: 5px;
+    color: white;
+    background-color:rgb(44, 187, 149);
+}
+
+.btn-contact{
+    border: none;
+    padding:10px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(44, 187, 149);
+}
+
+/*BG*/
+.bg-green{
+    background-color: rgb(44, 187, 149);
+}
+
+.bg-dark{
+    background-color: rgb(66, 86, 128);
+}
+
+.bg-light-dark{
+    background-color: rgb(90, 107, 143);
+    color: white;
+}

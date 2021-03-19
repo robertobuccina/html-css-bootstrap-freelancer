@@ -4,135 +4,165 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Bootstrap-freelancer</title>
 </head>
 <body>
-    <div class="container-fluid">
 
-        <div class="nav-bar">
-           <div class="row">
-               <div class="col-xs-10">
-                  <h2>START BOOTSTRAP</h2>
-               </div>
-               <div class="col-xs-2">
-                 ENTITY
-               </div>
-           </div>
-        </div>
+        <header class="bg-dark">
+            <nav class="navbar my-navbar">
+                <div class="container">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                   </div>
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                       <li><a href="#">PORTFOLIO</a></li> 
+                       <li><a href="#">ABOUT</a></li> 
+                       <li><a href="#">CONTACT</a></li> 
+                    </ul>
+                  </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </header>
 
-        <div class="header">
+        <section class="hero bg-green">
+            <div class="container">
+               <div class="row">
+                   <div class="col-xs-12">
+                      <img src="img\avatar.svg" alt="">
+                   </div>
+                   <h1 style="font-size: 50px;">START BOOTSTRAP</h1>
+                   <p>star</p>
+                   <h3>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h3>
+               </div>
+            </div>
+        </section>
+
+        <section class="portfolio container">
             <div class="row">
-              <div class="col-xs-3"></div>
-               <div class="col-xs-6">
-                 <img src="img\avatar.svg" alt="">
+               <div class="col-xs-12">
+                  <h2>PORTFOLIO</h2>
+                  <p>star</p>
                </div>
-               <div class="col-xs-3"></div>
-           </div>
+               <div class="col-xs-12 col-md-6 col-lg-4">
+                   <div class="box-img">
+                      <img src="img\cabin.png" alt="">
+                   </div>
+               </div>
+               <div class="col-xs-12 col-md-6 col-lg-4">
+                   <div class="box-img">
+                      <img src="img\cake.png" alt="">
+                   </div>
+               </div> 
+               <div class="col-xs-12 col-md-6 col-lg-4">
+                   <div class="box-img">
+                      <img src="img\circus.png" alt="">
+                   </div>
+               </div> 
+               <div class="col-xs-12 col-md-6 col-lg-4">
+                   <div class="box-img">
+                      <img src="img\game.png" alt="">
+                   </div>
+               </div> 
+               <div class="col-xs-12 col-md-6 col-lg-4">
+                   <div class="box-img">
+                      <img src="img\safe.png" alt="">
+                   </div>
+               </div> 
+               <div class="col-xs-12 col-md-6 col-lg-4">
+                   <div class="box-img">
+                      <img src="img\submarine.png" alt="">
+                   </div>
+               </div> 
+            </div>
+        </section> 
+
+        <section class="about bg-green">
+            <div class="container">
+               <div class="row">
+                   <div class="col-xs-12">
+                      <h2>ABOUT</h2>
+                      <p style="text-align: center;">star</p>
+                   </div>
+                   <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-2">
+                      <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore maxime facere ipsum cumque sed adipisci numquam praesentium, atque temporibus explicabo ad! Sint aperiam qui necessitatibus obcaecati ab, illum velit autem.</P>
+                   </div>
+                   <div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-pull-2">
+                      <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore maxime facere ipsum cumque sed adipisci numquam praesentium, atque temporibus explicabo ad! Sint aperiam qui necessitatibus obcaecati ab, illum velit autem.</P>
+                   </div>
+                   <div class="col-xs-12">
+                       <div class="button-about">
+                          <button class="btn-about"><i class="fas fa-download"></i><span>Download</span></button>
+                       </div>
+                   </div>
+               </div>
+            </div>
+        </section> 
+
+        <section class="contact container">
+            <div class="row">
+                <div class="col-xs-12">
+                   <h2>CONTACT ME</h2>
+                   <p>star</p>
+                </div>
+                <div class="col-xs-8 col-xs-offset-2 col-md-8 col-md-offset-2">
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Name</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="">
+                        
+                          <label for="exampleInputPassword1">Email Address</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+
+                          <label for="exampleInputPhone1">Phone Number</label>
+                          <input type="phone" class="form-control" id="exampleInputPhone1" placeholder="">
+
+                          <label for="exampleInputPhone1">Message</label>
+                          <textarea class="form-control" rows="3"></textarea>
+                          <a href="#"><button class="btn-contact">Send</button></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
         
-          <div class="row">
-               <div class="col-xs-12">
-                  <h1>START BOOTSTRAP</h1>
-                  <P>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</P>
-                  ENTITY
+        <footer class="bg-light-dark">
+            <div class="container">
+               <div class="row">
+                   <div class="col-xs-12 col-md-4">
+                      <h4>LOCATION</h4>
+                      <p>2215 John Daniel Drive Clark, MO 54243</p>
+                   </div>
+                   <div class="col-xs-12 col-md-4">
+                      <h4>AROUND THE WEB</h4>
+                      <p>icone social</p>
+                   </div>
+                   <div class="col-xs-12 col-md-4">
+                      <h4>ABOUT FREELANCER</h4>
+                      <p>Freelance is free to use, open source Bootstrap thene created by <span>Start Bootstrap</span></p>
+                   </div>
                </div>
-          </div>
-        </div>
-
-        <div class="portfolio">
-           <div class="row">
-               <div class="col-xs-12">
-                  <h1>PORTFOLIO</h1>
-                  ENTITY
+            </div>
+            <div class="copyright bg-dark">
+                <div class="container">
+                   <div class="row">
+                       <div class="col-xs-12">
+                          <p>Copyright your Website 2019</p>
+                       </div>
+                   </div>
                </div>
-           </div>
-
-           <div class="row">
-               <div class="col-xs-12">
-                  <img src="img\cabin.png" alt="">
-               </div>
-           </div>
-
-           <div class="row">
-              <div class="col-xs-12">
-                  <img src="img\cake.png" alt="">
-              </div> 
-           </div>
-
-           <div class="row">
-               <div class="col-xs-12">
-                  <img src="img\circus.png" alt="">
-               </div> 
-           </div> 
-
-           <div class="row">
-               <div class="col-xs-12">
-                  <img src="img\game.png" alt="">
-               </div> 
-           </div> 
-
-           <div class="row">
-               <div class="col-xs-12">
-                  <img src="img\safe.png" alt="">
-               </div> 
-           </div> 
-
-           <div class="row">
-               <div class="col-xs-12">
-                  <img src="img\submarine.png" alt="">
-               </div> 
-           </div> 
-        </div> 
-
-        <div class="about">
-            <div class="row">
-                <div class="col-xs-4"></div>
-                <div class="col-xs-4">
-                   <h1>ABOUT</h1>
-                   ENTITY
-                </div>
-                <div class="col-xs-4"></div>
             </div>
+        </footer>
 
-            <div class="row">
-                <div class="col-xs-2"></div>
-                <div class="col-xs-8">
-                   <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore maxime facere ipsum cumque sed adipisci numquam praesentium, atque temporibus explicabo ad! Sint aperiam qui necessitatibus obcaecati ab, illum velit autem.</P>
-                </div>
-                <div class="col-xs-2"></div>
-            </div>
-        </div> 
-
-        <div class="contact">
-            <div class="row">
-                <div class="col-xs-4"></div>
-                <div class="col-xs-4">
-                   <h1>CONTACT ME</h1>
-                   ENTITY
-                </div>
-                <div class="col-xs-4"></div>
-            </div>
-
-            <div class="row">
-                <div class="col-xs-2"></div>
-                <div class="col-xs-8">
-                   <P>NAME</P>
-                </div>
-                <div class="col-xs-2"></div>
-            </div>
-        </div> 
-
-
-
-        
-      
-
-
-
-
-
-
-    </div>
 </body>
 </html>
